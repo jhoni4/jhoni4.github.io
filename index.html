@@ -1,74 +1,233 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Yonatan Molla | Developer</title>
+  <link rel="stylesheet" href="/javascripts/src/lib/bootstrap/dist/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/stylesheets/stylesheet.css">
+  <link rel="stylesheet" href="/styles.css">
+</head>
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="YONATAN MOLLA : Yoni">
+<body id="page-top">
+  <!-- nav -->
+  <nav class="navbar navbar-default navbar-fixed-top" id="custom-nav">
+    <div class="container">
+      <div class="navbar-header page-scroll custom-nav-header">
+        <a class="navbar-brand" href="#"><h3>YONATAN MOLLA</h3></a><br>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+      </div>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+      <div class="collapse navbar-collapse custom-nav-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right custom-nav-links">
+          <li class="hidden">
+            <a data-scroll href="#page-top"></a>
+          </li>
+          <li class="page-scroll">
+            <a data-scroll href="#about">About</a>
+          </li>
+          <li class="page-scroll">
+            <a data-scroll href="#technologies">Technologies</a>
+          </li>
+          <li class="page-scroll">
+            <a data-scroll href="#portfolio">Portfolio</a>
+          </li>
+          <li class="page-scroll">
+            <a data-scroll href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <title>YONATAN MOLLA</title>
-  </head>
+  <!-- main header -->
+  <header>
+    <div class="container">
+      <img class="profile-img center-block" src="/images/yona.jpg" alt="this is my face">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3 col-xs-12">
+         <h2>
+          <a id="welcome-to-my-page" class="anchor" href="#" aria-hidden="true">
+          </a>Welcome to My Page.
+         </h2>
+          <h2>Hi! I'm <span class="name"><h1>Yonatan Molla</h1></span>  Software developer based in Nashville, TN.</h2>
+          <h3>When I'm not designing or coding I enjoy Listening to music and watching Movies with my significant other.</h3>
+          <a data-scroll href="#about"><i class="fa fa-chevron-down fa-3x" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+  </header>
 
-  <body>
+  <!-- about me -->
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/jhoni4">View on GitHub</a>
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+          <h2 class="section-header">About Me</h2>
+          <p class="section-content">
+            I was born and raised in Ethiopia, graduated in Agro-Mechanization Engineering  from Debub University in 2005 with a B.S. Since then I was working in the fields of Robot Tender, Sealer Deck and Sanding Tech at Nissan North America.
+          </p><hr>
+          <p class="section-content">I decided to attend Nashville Software School to jumpstart my programming education in a place where I could work with like-minded people and learn best practices. Over the last six months, I’ve been rapidly building my skills as a full-stack developer and getting more excited every day about learning new technologies and finding ways to improve my code.
+          </p>
+          <p class="section-content">
+            I decided to attend Nashville Software School to jumpstart my programming education in a place where I could work with like-minded people and learn best practices. Over the last six months, I’ve been rapidly building my skills as a full-stack developer and getting more excited every day about learning new technologies and finding ways to improve my code.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-          <h1 id="project_title">YONATAN MOLLA</h1>
-          <h2 id="project_tagline">Yoni</h2>
+  <!-- technologies -->
+  <section id="technologies">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+          <h2 class="section-header">Technologies I Use</h2>
+        </div>
+      </div>
+      <div class="row logo-row">
+        <div class="col-md-2 col-xs-6">
+          <img class="tech-logo" src="/images/angular.png" alt="AngularJS">
+        </div>
+        <div class="col-md-2 col-xs-6">
+          <img class="tech-logo" src="/images/Bootstrap.png" alt="Bootstrap">
+        </div>
+        <div class="col-md-2 col-xs-6">
+          <img class="tech-logo" src="/images/csharp.png" alt="C#">
+        </div>
+        <div class="col-md-2 col-xs-6">
+          <img class="tech-logo" src="/images/CSS3.png" alt="CSS3">
+        </div>
+        <div class="col-md-2 col-xs-6">
+          <img class="tech-logo" src="/images/net.png" alt="ASP .NET">
+        </div>
+      </div>
+      <div class="row logo-row">
+        <div class="col-md-2 col-xs-6">
+          <img class="tech-logo" src="/images/Git_icon.png" alt="Git">
+        </div>
+        <div class="col-md-2 col-xs-6">
+          <img class="tech-logo" src="/images/github.png" alt="GitHub">
+        </div>
+        <div class="col-md-2 col-xs-6">
+          <img class="tech-logo" src="/images/grunt.png" alt="Gulp">
+        </div>
+        <div class="col-md-2 col-xs-6">
+          <img class="tech-logo" src="/images/html5.png" alt="HTML5">
+        </div>
+        <div class="col-md-2 col-xs-6">
+          <img class="tech-logo" src="/images/jasmine.png" alt="Jasmine">
+        </div>
+      </div>
+      <div class="row logo-row">
+        <div class="col-md-2 col-xs-6">
+          <img class="tech-logo" src="/images/javascript.png" alt="JavaScript">
+        </div>
+        <div class="col-md-2 col-xs-6">
+          <img class="tech-logo" src="/images/jquery.png" alt="jQuery">
+        </div>
+        <div class="col-md-2 col-xs-6">
+          <img class="tech-logo" src="/images/sass-logo.png" alt="Sass">
+        </div>
+        <div class="col-md-2 col-xs-6">
+          <img class="tech-logo" src="/images/SQL-icon.png" alt="SQL">
+        </div>
+        <div class="col-md-2 col-xs-6">
+          <img class="tech-logo" src="/images/net-visual-studio.png" alt="Visual Studio 2015">
+        </div>
+      </div>
+    </div>
+  </section>
 
-        </header>
+  <!-- portfolio -->
+  <section id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+          <h2 class="section-header">My Portfolio</h2>
+          <h4 class="under-construction">under construction...</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <a href="#" class="portfolio-link" >
+            <div class="caption">
+              <div class="caption-content">
+                <h4>My Grey Auto Book</h4>
+                <h5>Front End Capstone</h5>
+              </div>
+            </div>
+            <img class="portfolio-icon" src="/images/greybook.png" alt="MyGrey Auto Book">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="#" class="portfolio-link">
+          <div class="caption">
+            <div class="caption-content">
+              <h4>Collections</h4>
+              <h5>-</h5>
+            </div>
+          </div>
+          <img class="portfolio-icon" src="" alt="JavaScript exercises">
+        </a>
+        </div>
+        <div class="col-md-4">
+          <a href="#battledome-modal" class="portfolio-link" data-toggle="modal">
+          <div class="caption">
+            <div class="caption-content">
+              <h4>Back End Capstone</h4>
+              <h5>-Coming Soon</h5>
+            </div>
+          </div>
+          <img class="portfolio-icon" src="/images/grey2.png" alt="collectionsd">
+        </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- contact me -->
+  <section id="contact">
+    <h2 class="section-header">Contact Me</h2>
+    <h3>Interested in my work? Let's get in touch!</h3>
+    <img class="profile-img center-block" src="/images/yona.jpg" alt="this is not my face">
+    <div class="center-block"><a href="https://github.com/jhoni4">GitHub</a>
+      <i class="fa fa-paper-plane mail fa-2x" aria-hidden="true"></i>
+      <h4>jhoni42002@gmail.com</h4>
     </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a id="welcome-to-my-page" class="anchor" href="#welcome-to-my-page" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to My Page.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
-
-<h3>
-<a id="about-me" class="anchor" href="#about-me" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>About Me</h3>
-
-<p>My name is Yonatan Molla Originally i am from Ethiopia came to USA in 2011. I was graduated in Agro-Mechanization Engineering  from Debub University Ethiopia in 2005 with a B.S. Since then I was working in the fields of Robot Tender, Sealer Deck and Sanding Tech at Nissan North America.
-  I decided to attend Nashville Software School to jumpstart my programming education in a place where I could work with like-minded people and learn best practices. Over the last six months, I’ve been rapidly building my skills as a full-stack developer and getting more excited every day about learning new technologies and finding ways to improve my code.
-.<img src="https://github.com/unicorn.png" alt="My Unicorn"></p>
-
-<h3>
-<a id="technologies-i-use" class="anchor" href="#technologies-i-use" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Technologies I Use</h3>
-
-<p><img src="https://www.dropbox.com/s/uvxrk2xpj8xospy/csharpicon.png?dl=0" alt="git">  <img src="https://github.com/unicorn.png" alt="My Unicorn">
-<img src="http://nodeframework.com/assets/img/js.png" alt="JS">  <img src="https://github.com/unicorn.png" alt="My Unicorn">
-<img src="https://github.com/unicorn.png" alt="My Unicorn">  <img src="https://github.com/unicorn.png" alt="My Unicorn">
-If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a id="my-portfolio" class="anchor" href="#my-portfolio" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>My Portfolio</h3>
-
-<p>You can @mention a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a id="contact-me" class="anchor" href="#contact-me" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contact Me</h3>
-
-<p>Interested in my work? Let's get in touch!
-<a href="https://github.com/jhoni4">GitHub</a>
-Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
-      </section>
+    <div class="row">
+      <div class="contact-icons col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-4">
+        <a href="https://github.com/jhoni4" target="_blank">
+          <i class="fa fa-github icon-link fa-2x"></i>
+        </a>
+        <a href="#" target="_blank">
+          <i class="fa fa-linkedin-square fa-2x"></i>
+        </a>
+        <a href="#" target="_blank">
+          <i class="fa fa-twitter fa-2x"></i>
+        </a>
+      </div>
     </div>
+  </section>
+   <!-- FOOTER  -->
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
+  <div id="footer_wrap" class="outer">
+    <footer id="footer">
+      <div class="inner">
+        <p><a href="#">Yonatan Molla 2016</a></p>
+        <a class="footer" data-scroll href="#page-top">Back to top</a>
+      </div>
+    </footer>
+  </div>
 
-    
-
-  </body>
+  <script src="/javascripts/src/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/57e01ea2a5.js"></script>
+  <script src="main.js"></script>
+</body>
 </html>

@@ -1,3 +1,140 @@
 h1 {
-  color: red;
+  color: #FFD1AA;
 }
+@import url(https://fonts.googleapis.com/css?family=Oxygen:300);
+#custom-nav {
+  transition: all 0.8s;
+  height: 5em;
+  font-family: 'Quicksand', sans-serif;
+  text-transform: uppercase;
+  background-color: #D49A6A; }
+  #custom-nav .custom-nav-header {
+    padding: 10px 0; }
+    #custom-nav .custom-nav-header a {
+      color: #e60838; }
+  #custom-nav .navbar-name {
+    margin: auto;
+    text-decoration: none;
+    font-size: 2em; }
+  #custom-nav .custom-nav-links {
+    padding: 10px 0;
+    font-size: 1.25em;
+    link-decoration: none; }
+    #custom-nav .custom-nav-links li a:hover {
+      color: #e60838; }
+  #custom-nav .custom-nav-collapse {
+    background-color: #D49A6A; }
+
+header {
+  padding: 8em 0 4em;
+  background-color: #552600;
+  color: #FFD1AA;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center; }
+  header h2, header h3, header i {
+    padding-top: 2%; }
+  header a, header a:hover, header a:visited {
+    color: #FFD1AA;
+    text-decoration: none; }
+  header .name {
+    color: #fff; }
+  header .profile-img {
+    max-height: 250px;
+    border-radius: 50%; }
+  header .contact-icons {
+    padding-top: 2%;
+    text-align: center; }
+    header .contact-icons a, header .contact-icons a:visited {
+      padding: 5%;
+      color: #FFD1AA;
+      text-decoration: none; }
+    header .contact-icons a:hover {
+      color: #e60838;
+      text-decoration: none; }
+
+#portfolio .under-construction {
+  font-family: 'Quicksand', sans-serif;
+  font-style: italic;
+  color: #e60838;
+  padding-bottom: 2%; }
+
+#portfolio .portfolio-icon {
+  max-width: 100%;
+  padding-bottom: 1%; }
+
+#portfolio .portfolio-link .caption {
+  background-color: rgba(30, 30, 30, 0.7);
+  position: absolute;
+  width: 92%;
+  height: 98%;
+  opacity: 0;
+  padding-top: 30%; }
+  #portfolio .portfolio-link .caption .caption-content {
+    color: #FFD1AA;
+    font-family: 'Quicksand', sans-serif; }
+
+#portfolio .portfolio-link .caption:hover {
+  opacity: 1; }
+
+
+
+#contact {
+  background-color: #552600;
+  border: none; }
+  #contact h3, #contact h4 {
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    padding-bottom: 2%; }
+  #contact img {
+    max-height: 150px;
+    border-radius: 50%; }
+  #contact .mail {
+    padding-top: 2%;
+    color: #c5eed6; }
+  #contact .contact-icons a, #contact .contact-icons a:visited {
+    padding: 5%;
+    color: #fff;
+    text-decoration: none; }
+  #contact .contact-icons a:hover {
+    color: #c5eed6;
+    text-decoration: none; }
+
+#footer {
+  background-color: #FFD1AA;
+  padding: 1% 0;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif; }
+  #footer a, #footer a:visited {
+    color: #4C4C4C;
+    text-decoration: none; }
+  #footer a:hover {
+    color: #3ac390;
+    text-decoration: none; }
+
+body {
+  position: relative; }
+
+section {
+  text-align: center;
+  padding: 2% 0;
+  border-bottom: 2px solid #FFD1AA; }
+
+.section-header {
+  font-family: 'Quicksand', sans-serif;
+  color: #552600;
+  padding-bottom: 2%;
+  cursor: pointer; }
+
+.section-content {
+  padding-bottom: 1%;
+  color: #552600;
+  line-height: 150%;
+  font-size: 1.1em;
+  font-family: 'Oxygen', sans-serif; }
+
+.logo-row {
+  padding: 2% 0; }
+
+.tech-logo {
+  padding: 5%;
+  max-height: 125px; }
