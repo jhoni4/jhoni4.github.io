@@ -11,7 +11,7 @@ h1 {
   #custom-nav .custom-nav-header {
     padding: 10px 0; }
     #custom-nav .custom-nav-header a {
-      color: #e60838; }
+      color: #000; }
   #custom-nav .navbar-name {
     margin: auto;
     text-decoration: none;
@@ -21,9 +21,15 @@ h1 {
     font-size: 1.25em;
     link-decoration: none; }
     #custom-nav .custom-nav-links li a:hover {
-      color: #e60838; }
+      color: #fff; }
   #custom-nav .custom-nav-collapse {
     background-color: #D49A6A; }
+  #custom-nav .custom-nav-links a {
+    color: #341800;
+    font-size: 18px;
+    font-weight: 300;}
+
+
 
 header {
   padding: 8em 0 4em;
@@ -32,7 +38,8 @@ header {
   font-family: 'Quicksand', sans-serif;
   text-align: center; }
   header h2, header h3, header i {
-    padding-top: 2%; }
+    padding-top: 2%;
+    color: #FFD1AA; }
   header a, header a:hover, header a:visited {
     color: #FFD1AA;
     text-decoration: none; }
@@ -51,17 +58,25 @@ header {
     header .contact-icons a:hover {
       color: #e60838;
       text-decoration: none; }
+    header p {
+      font-size: 18px;}
+
+#technologies {
+  background-color: #D49A6A;
+  border: none; }
+#technologies .container {
+  margin: auto;
+}
+
 
 #portfolio .under-construction {
   font-family: 'Quicksand', sans-serif;
   font-style: italic;
   color: #e60838;
   padding-bottom: 2%; }
-
 #portfolio .portfolio-icon {
   max-width: 100%;
   padding-bottom: 1%; }
-
 #portfolio .portfolio-link .caption {
   background-color: rgba(30, 30, 30, 0.7);
   position: absolute;
@@ -69,17 +84,19 @@ header {
   height: 98%;
   opacity: 0;
   padding-top: 30%; }
-  #portfolio .portfolio-link .caption .caption-content {
+#portfolio .portfolio-link .caption .caption-content {
     color: #FFD1AA;
     font-family: 'Quicksand', sans-serif; }
-
 #portfolio .portfolio-link .caption:hover {
   opacity: 1; }
+#portfolio img {
+  width: 600px;
+  height: 300px;}
 
 
 
 #contact {
-  background-color: #552600;
+  background-color: #341800;
   border: none; }
   #contact h3, #contact h4 {
     color: #fff;
@@ -98,6 +115,7 @@ header {
   #contact .contact-icons a:hover {
     color: #c5eed6;
     text-decoration: none; }
+
 
 #footer {
   background-color: #FFD1AA;
@@ -125,6 +143,8 @@ section {
   padding-bottom: 2%;
   cursor: pointer; }
 
+.section-header2 {
+  color: #fff; }
 .section-content {
   padding-bottom: 1%;
   color: #552600;
@@ -135,6 +155,4 @@ section {
 .logo-row {
   padding: 2% 0; }
 
-.tech-logo {
-  padding: 5%;
-  max-height: 125px; }
+
