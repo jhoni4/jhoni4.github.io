@@ -1,5 +1,5 @@
 h1 {
-  color: #FFD1AA;
+  color: #fff;
 }
 @import url(https://fonts.googleapis.com/css?family=Oxygen:300);
 #custom-nav {
@@ -27,7 +27,7 @@ h1 {
 
 header {
   padding: 8em 0 4em;
-  background-color: #552600;
+  background-color: #341800;
   color: #FFD1AA;
   font-family: 'Quicksand', sans-serif;
   text-align: center; }
