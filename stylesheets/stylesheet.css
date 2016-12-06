@@ -21,7 +21,7 @@ img {
   /*height: 5em;*/
   font-family: 'Quicksand', sans-serif;
   text-transform: uppercase;
-  background-color: #D49A6A; }
+  background-color: #6A738E; }
   #custom-nav .custom-nav-header {
     padding: 10px 0; }
   #custom-nav .custom-nav-header a {
@@ -37,9 +37,9 @@ img {
     #custom-nav .custom-nav-links li a:hover {
       color: #fff; }
   #custom-nav .custom-nav-collapse {
-    background-color: #D49A6A; }
+    background-color: #6A738E; }
   #custom-nav .custom-nav-links a {
-    color: #341800;
+    color: #333C58;
     font-size: 18px;
     font-weight: 300;}
 
@@ -47,7 +47,7 @@ img {
 
 header {
   padding: 8em 0 4em;
-  background-color: #341800;
+  background-color: #333C58;
   color: #FFD1AA;
   font-family: 'Quicksand', sans-serif;
   text-align: center; }
@@ -76,7 +76,7 @@ header {
       font-size: 25px;}
 
 #technologies {
-  background-color: #D49A6A;
+  background-color: #6A738E;
   border: none; }
 #technologies .container {
   margin: auto;
@@ -110,7 +110,7 @@ header {
 
 
 #contact {
-  background-color: #341800;
+  background-color: #333C58;
   border: none; }
   #contact h3, #contact h4 {
     color: #fff;
@@ -131,7 +131,7 @@ header {
 
 
 #footer {
-  background-color: #FFD1AA;
+  background-color: #6A738E;
   padding: 1% 0;
   text-align: center;
   font-family: 'Quicksand', sans-serif; }
