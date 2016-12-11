@@ -48,7 +48,8 @@ img {
 header {
   padding: 8em 0 4em;
   background-color: #333C58;
-  color: #FFD1AA;
+  background-image: url(/images/pattern.png) 0.5;
+  color: #e9ecdb;
   font-family: 'Quicksand', sans-serif;
   text-align: center; }
   header h2, header h3, header i {
@@ -75,14 +76,31 @@ header {
     header p {
       font-size: 25px;}
 
+#about  {
+  background-color: #e9ecdb;}
+#about p {
+  color: #333C58;
+}
+#about h2 {
+  color: #333C58;
+}
+
 #technologies {
   background-color: #6A738E;
   border: none; }
 #technologies .container {
   margin: auto;
 }
+#technologies h2 {
+  color: #e9ecdb;
+}
 
 
+#portfolio  {
+  background-color: #e9ecdb;}
+#portfolio h2 {
+  color: #333C58;
+}
 #portfolio .under-construction {
   font-family: 'Quicksand', sans-serif;
   font-style: italic;

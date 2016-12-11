@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Yonatan Molla | Developer</title>
-  <link rel="stylesheet" href="/javascripts/src/lib/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/libraries/src/lib/bootstrap/dist/css/bootstrap.min.css">
   <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/stylesheets/stylesheet.css">
-</head>
+
 
 <body id="page-top">
   <!-- nav -->
@@ -174,7 +174,7 @@
       </div>
       <div class="row">
         <div class="col-md-4">
-          <a target="_blank" href="https://safety1-b7b77.firebaseapp.com" class="portfolio-link" >
+          <a type="button" data-toggle="modal" data-target="#myModal1"  class="portfolio-link" >
             <div class="caption">
               <div class="caption-content">
                 <h4>My Grey Auto Book</h4>
@@ -184,38 +184,125 @@
             <img class="portfolio-icon" src="/images/greybook.png" alt="MyGrey Auto Book">
           </a>
         </div>
-        <div class="col-md-4">
-          <a href="#" class="portfolio-link">
-          <div class="caption">
-            <div class="caption-content">
-              <h4>Collections</h4>
-              <h5>-Coming Soon</h5>
+         <!-- Modal -->
+      <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">My Grey Auto Book</h4>
+            </div>
+            <div class="modal-body">
+            <h4>Description</h4>
+              <p>This app is created for car buyers ..... one of the major causes for loss of human life is car accident and one of the major cause of car accident is safety of the vehicle, so knowing the safety rate of your vehicle before you decide to buy it is very important. This app will give you reliable score and grade info about the vehicle's performance,Value,interior,comfort and funToDrive ratings and summery details.</p><hr>
+              <h4>Materials used</h4>
+              <p><ul>
+                <li>Angular javascript</li>
+                <li>Bootstrap</li>
+                <li>Firebase</li>
+                <li>Angular Fusioncharts</li>
+                <li>Edmonds API</li>
+                <li>Google API</li>
+              </ul></p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+              <a target="_blank" href="https://github.com/jhoni4/My-Grey-Auto-Book" class="btn btn-primary">CODE</a>
+              <a target="_blank" href="https://safety1-b7b77.firebaseapp.com" class="btn btn-primary">DEMO</a>
             </div>
           </div>
-          <img class="portfolio-icon" src="" alt="JavaScript exercises">
+        </div>
+      </div>
+        <div class="col-md-4">
+          <a type="button" data-toggle="modal" data-target="#myModal2"  class="portfolio-link" >
+          <div class="caption">
+            <div class="caption-content">
+              <h4>Bangazone</h4>
+            </div>
+          </div>
+          <img class="portfolio-icon" src="" alt="Team Delta">
         </a>
         </div>
+         <!-- Modal -->
+      <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">Bangazone</h4>
+            </div>
+            <div class="modal-body">
+            <h4>Description</h4>
+              <p><strong>Bangazon Inc. Initial Site by Team Delta</strong>,
+              <strong>Delta-Workforce-Management</strong>,
+              <strong>Identity</strong>
+              Bangazon's first venture into the Personal E-Commerce World! Users can:
+              Buy products listed for sale by other users
+              Add multiple products to an order for an all-encompassing checkout experience
+              List their own possessions as products on Bangazon's public marketplace
+              Browse products by Product Type for easy browsing
+              Store credit card information securely in Bangazon's database for quick purchasing.</p><hr>
+              <h4>Materials used</h4>
+              <ul>
+                <li>c#</li>
+                <li>ASP.NET MVC</li>
+                <li>Javascript</li>
+                <li>Bootstrap</li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+              <a target="_blank" href="https://github.com/NSS-Team-Delta" class="btn btn-primary">CODE</a>
+            </div>
+          </div>
+        </div>
+      </div>
         <div class="col-md-4">
-          <a href="#" class="portfolio-link" data-toggle="modal">
+          <a type="button" data-toggle="modal" data-target="#myModal3"  class="portfolio-link">
           <div class="caption">
             <div class="caption-content">
               <h4>Back End Capstone</h4>
               <h5>-Coming Soon</h5>
             </div>
           </div>
-          <img class="portfolio-icon" src="/images/grey2.png" alt="collectionsd">
+          <img class="portfolio-icon" src="/images/grey2.png" alt="Final Capstone">
         </a>
         </div>
+        <!-- Modal -->
+      <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">Capstone 2</h4>
+            </div>
+            <div class="modal-body">
+            <h4>Description</h4>
+              <p>This app is created for ...</p><hr>
+              <h4>Materials used</h4>
+              <ul>
+                <li>ASP.NET MVC</li>
+                <li>Bootstrap</li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+              <a target="_blank" href="#" class="btn btn-primary">CODE</a>
+              <a target="_blank" href="#" class="btn btn-primary">DEMO</a>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
+      </div>
+    </section>
+
 
 
 
  <!-- contact me -->
   <section id="contact">
     <h2 class="section-header2">Contact Me</h2>
-    <a href="/images/YONATAN%20MOLLA%20%281%29.pdf">Checkout My Resume</a><hr>
+    <a target="_blank" href="/images/YONATAN%20MOLLA%20%281%29.pdf">Checkout My Resume</a><hr>
     <h3>Interested in my work? Let's get in touch!</h3>
     <h5>My Github Chart</h5>
     <img class= "github-chart" src="http://ghchart.rshah.org/341800/jhoni4" alt="yonatan's Github chart"/><br>
@@ -250,8 +337,9 @@
     </footer>
   </div>
 
-  <!-- <script src="/javascripts/src/lib/bootstrap/dist/js/bootstrap.min.js"></script> -->
-  <script src="https://use.fontawesome.com/57e01ea2a5.js"></script>
-  <script src="/javascripts/main.js"></script>
+  <script src="/libraries/src/lib/jquery/dist/jquery.js"></script>
+  <script src="/libraries/src/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="/libraries/src/lib/jquery/dist/jquery.min.js"></script>
+  <script src="/libraries/main.js"></script>
 </body>
 </html>
