@@ -42,7 +42,65 @@ img {
     color: #333C58;
     font-size: 18px;
     font-weight: 300;}
+.navbar-custom {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #000;
+    color: #fff;
+}
 
+.navbar-custom .navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+
+
+
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover {
+    outline: 0;
+    color: rgba(255,255,255,.8);
+    background-color: transparent;
+}
+
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+    outline: 0;
+    background-color: transparent;
+}
+
+.navbar-custom .nav li.active {
+    outline: 0;
+}
+
+.navbar-custom .nav li.active a {
+    background-color: rgba(255,255,255,.3);
+}
+
+.navbar-custom .nav li.active a:hover {
+    color: #fff;
+}
 
 
 header {
@@ -76,6 +134,8 @@ header {
     header p {
       font-size: 25px;}
 
+
+
 #about  {
   background-color: #e9ecdb;}
 #about p {
@@ -94,7 +154,9 @@ header {
 #technologies h2 {
   color: #e9ecdb;
 }
-
+#technologies {
+  color: #fff;
+}
 
 #portfolio  {
   background-color: #e9ecdb;}
@@ -146,7 +208,13 @@ header {
   #contact .contact-icons a:hover {
     color: #c5eed6;
     text-decoration: none; }
-
+.resume {
+  background-color: #000;
+  border:2px black solid;
+  font-size: 2em;
+  font-family: 'Quicksand', sans-serif;
+  z-index: 2;
+}
 
 #footer {
   background-color: #6A738E;
@@ -189,10 +257,7 @@ section {
 .logo-row {
   padding: 2% 0; }
 
-  /*//*/
-  /*!
- * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
- */
+
 
 body {
     width: 100%;
@@ -235,69 +300,39 @@ a:focus {
     color: #1d9b6c;
 }
 
-.navbar-custom {
-    margin-bottom: 0;
-    border-bottom: 1px solid rgba(255,255,255,.3);
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #000;
-    color: #fff;
+
+
+body, html {
+    height: 100%;
 }
 
-.navbar-custom .navbar-brand {
-    font-weight: 700;
+.parallax3 {
+    /* The image used */
+    background-image: url("/images/road.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.navbar-custom .navbar-brand:focus {
-    outline: 0;
+.parallax1 {
+    /* The image used */
+    background-image: url("/images/keyboard.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-.navbar-custom .navbar-brand .navbar-toggle {
-    padding: 4px 6px;
-    font-size: 16px;
-    color: #fff;
-}
-
-.navbar-custom .navbar-brand .navbar-toggle:focus,
-.navbar-custom .navbar-brand .navbar-toggle:active {
-    outline: 0;
-}
-
-.navbar-custom a {
-    color: #fff;
-}
-
-.navbar-custom .nav li a {
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
-}
-
-.navbar-custom .nav li a:hover {
-    outline: 0;
-    color: rgba(255,255,255,.8);
-    background-color: transparent;
-}
-
-.navbar-custom .nav li a:focus,
-.navbar-custom .nav li a:active {
-    outline: 0;
-    background-color: transparent;
-}
-
-.navbar-custom .nav li.active {
-    outline: 0;
-}
-
-.navbar-custom .nav li.active a {
-    background-color: rgba(255,255,255,.3);
-}
-
-.navbar-custom .nav li.active a:hover {
-    color: #fff;
-}
-
-
 
 
 
