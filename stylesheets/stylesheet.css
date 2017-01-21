@@ -39,7 +39,8 @@ img {
   #custom-nav .custom-nav-collapse {
     background-color: #6A738E; }
   #custom-nav .custom-nav-links a {
-    color: #333C58;
+    color: #112334;
+    text-shadow: 0 0 5px #fff;
     font-size: 18px;
     font-weight: 300;}
 .navbar-custom {
